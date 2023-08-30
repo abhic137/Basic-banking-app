@@ -5,10 +5,14 @@ A basic banking app which uses docker to host a webpage using nodejs and its in 
 cd Basic-banking-app/banking-app
 ```
 ```
-docker build -t banking-app .
+sudo docker build -t banking-app network --host .
 ```
 ```
-docker run -p 3000:3000 banking-app
+sudo docker-compose up -d
+```
+```or```
+```
+sudo docker run -p 3000:3000 banking-app
 
 ```
 go to browser
