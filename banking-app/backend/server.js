@@ -13,7 +13,9 @@ const db = new Datastore({ filename: 'data.db', autoload: true });
 db.insert(
   [
     { accountNumber: '123456', password: 'password123', balance: 1000 },
-    { accountNumber: '987654', password: 'letmein', balance: 500 }
+    { accountNumber: '987654', password: 'letmein', balance: 500 },
+    { accountNumber: '713047', password: 'abhi123', balance: 50000 }
+    
   ],
   (err) => {
     if (err) {
