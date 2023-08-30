@@ -1,0 +1,8 @@
+version: '3'
+services:
+  banking-app:
+    hostname: banking-app
+    container_name: nodebankingapp
+    image: banking-app:latest
+    ports:
+      - "3000:3000"
